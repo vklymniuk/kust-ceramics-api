@@ -1,6 +1,7 @@
 steps:
-#  - name: 'gcr.io/cloud-builders/docker'
-#    args: ['pull', 'docker pull gcr.io/$PROJECT_ID/${REPO_NAME}-${BRANCH_NAME}:latest']
+  - name: node
+    entrypoint: npm
+    args: ['install']
 
   - name: gcr.io/cloud-builders/docker
     args: [
