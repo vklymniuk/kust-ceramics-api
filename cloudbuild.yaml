@@ -2,7 +2,7 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['pull', 'docker pull gcr.io/$PROJECT_ID/${REPO_NAME}-${BRANCH_NAME}:latest']
 
-  - name: 'gcr.io/cloud-builders/docker'
+  - name: gcr.io/cloud-builders/docker
     args: [
       'build',
       '-t', 'gcr.io/$PROJECT_ID/${REPO_NAME}-${BRANCH_NAME}:latest',
