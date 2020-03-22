@@ -1,2 +1,3 @@
-# kust-ceramics-api
-kust-ceramics-api
+# Kustceramics backend-api
+
+`` Run docker-compose up -d --build --force-recreate to start application.``

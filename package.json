@@ -1,0 +1,52 @@
+{
+  "name": "kust-ceramics-api",
+  "version": "1.0.0",
+  "description": "kust-ceramics-api",
+  "main": "src/index.js",
+  "dependencies": {
+    "apollo-datasource": "^0.7.0",
+    "apollo-datasource-rest": "^0.8.0",
+    "apollo-server": "^2.11.0",
+    "apollo-server-testing": "^2.11.0",
+    "convict": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "firebase": "^7.12.0",
+    "firebase-admin": "^8.10.0",
+    "graphql": "^14.6.0",
+    "graphql-tools": "^4.0.7",
+    "mime": "^2.4.4",
+    "path": "^0.12.7",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "apollo": "^2.25.0",
+    "apollo-link": "^1.2.13",
+    "apollo-link-http": "^1.5.16",
+    "nodemon": "^2.0.2",
+    "now": "^17.0.4",
+    "jest": "^25.1.0",
+    "nock": "^12.0.3",
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "nodejs src/index.js",
+    "start:ci": "nodejs src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vklymniuk/kust-ceramics-api.git"
+  },
+  "author": "Vladimir Klymniuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vklymniuk/kust-ceramics-api/issues"
+  },
+  "homepage": "https://github.com/vklymniuk/kust-ceramics-api#readme",
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/__utils"
+    ]
+  }
+}
